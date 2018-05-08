@@ -1,0 +1,18 @@
+title: "Minecraft: Bedrock Edition Documenation"
+
+encoding: UTF-8
+
+collections:
+    docs:
+        output: true
+        permalink: /
+    static:
+        output: false
+        permalink: /static
+
+defaults:
+    - scope:
+          path: ""
+          type: docs
+      values:
+          layout: page

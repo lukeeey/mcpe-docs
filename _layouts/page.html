@@ -1,0 +1,57 @@
+<head>
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <link rel="stylesheet" href="//lukeeey.github.io/mcpe-docs/static/css/bootstrap.min.css">
+  <style>.page { padding-left: 20px; padding-right: 20px; } .navbar { -webkit-box-shadow: 0 1px 6px 1px #999; -moz-box-shadow: 0 1px 6px 1px #999; box-shadow: 0 1px 6px 1px #999; } pre { background-color: #FFFFFF;</style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+   	<div class="container-fluid">
+   	  <div class="navbar-header">
+   		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   		  <span class="sr-only">Toggle navigation</span>
+   		  <span class="icon-bar"></span>
+   		  <span class="icon-bar"></span>
+   		  <span class="icon-bar"></span>
+   		</button>
+   		<a class="navbar-brand" href="https://lukeeey.github.io/mcpe-docs/">MCPE Docs</a>
+   	  </div>
+   	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   		<ul class="nav navbar-nav">
+   		  <li class="active"><a href="https://lukeeey.github.io/mcpe-docs/">Home</a></li>
+   		  <li><a href="http://pe.thediamondyt.tk/wiki/">Old Wiki</a></li>
+   		</ul>
+   	  </div>
+   	</div>
+     </nav>
+
+    <div id="page" class="page">
+        {% if page.shortname %}
+        <ol class="breadcrumb">
+            <li><a href="{{ site.url }}{{ site.baseurl }}">Home</a>
+            {% assign crumbs = page.url | split: '/' %}
+            {% for crumb in crumbs offset: 1 %}
+                {% if forloop.last %}
+                <li>{{ page.shortname }}</li>
+                {% else %}
+                <li><a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+        {% endif %}
+
+        {{ content }}
+    </div>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-118831314-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+  <script src="//lukeeey.github.io/mcpe-docs/static/js/jquery.min.js"></script>
+  <script src="//lukeeey.github.io/mcpe-docs/static/js/bootstrap.min.js"></script>
+</body>
+</html>
