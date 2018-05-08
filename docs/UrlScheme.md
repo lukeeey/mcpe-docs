@@ -13,13 +13,15 @@ The only downside is that you cannot enter these directly into the address bar, 
 Yes, you read it right. You can launch Minecraft: Education Edition from a browser. It works on Android too!
 
 Link - [`minecraft:?edu=1`](minecraft:?edu=1)  
-<br>
+
+<br><br>
 
 #### Add an External Server
 For all you server owners out there, you can add an external server from a link. The format is `name|ip:port`, so for LBSG:
 
 Link - [`minecraft:?addExternalServer=Lifeboat|sg.lbsg.net:19132`](minecraft:?addExternalServer=Lifeboat|sg.lbsg.net:19132)  
-<br>
+
+<br><br>
 
 #### Show Store on Startup
 This link will open Minecraft and, instead of showing the home screen, immediatly open the store screen.
@@ -27,7 +29,8 @@ This link will open Minecraft and, instead of showing the home screen, immediatl
 Link - [`minecraft:?showStoreHomeScreen=1`](minecraft:?showStoreHomeScreen=1)   
 
 It seems that `showStoreOffer` is also the same as `showStoreHomeScreen`, so you could use that if you wanted.  
-<br>
+
+<br><br>
 
 #### Accept Realms Invite
 There are actually 2 ways to accept a realms invite from the browser. The first one actually uses the second method but it has a pretty interface.

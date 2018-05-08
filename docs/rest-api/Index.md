@@ -22,7 +22,7 @@ There are various API endpoints that the client communicates with, and I will at
 <br>
 
 #### Legacy Realms Endpoints
-These endpoints are for the *old* version of pocket realms, from 0.7.4 - 0.8.1.  
+These endpoints are for the *old* version of pocket realms, from 0.7.4 - 0.8.1. Some of this info may be incorrect, so bear with me.  
 
 * [Join Realm](realms/legacy/join-realm/)  
 * [Service Status](realms/legacy/status/)  
