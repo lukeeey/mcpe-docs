@@ -19,7 +19,7 @@ Link - [`minecraft:?edu=1`](minecraft:?edu=1)
 #### Add an External Server
 For all you server owners out there, you can add an external server from a link. The format is `name|ip:port`, so for LBSG:
 
-Link - [`minecraft:?addExternalServer=Lifeboat|sg.lbsg.net:19132`](minecraft:?addExternalServer=Lifeboat|sg.lbsg.net:19132)  
+Link - [`minecraft:?addExternalServer=Lifeboat|sg.lbsg.net:19132`](minecraft:?addExternalServer=Lifeboat\|sg.lbsg.net:19132)  
 
 <br><br>
 
