@@ -1,5 +1,5 @@
 ---
-permalink: /protocol/14/packets/set-time/
+permalink: /protocol/14/set-time/
 ---
 ## Set Time
 
@@ -11,7 +11,7 @@ permalink: /protocol/14/packets/set-time/
 
 ### Fields
 
-| Field      | Type   | Description                 |
-| ---------- | ------ | --------------------------- |
-| Time       | int    | The time of the world       |
-| Started    | byte   | * 0x80 - Start Time <br> * 0x00 - Stop Time |
+| Field   | Type | Description                                 | 
+| ------- | ---- | ------------------------------------------- |
+| Time    | int  | The time of the world                       |
+| Started | byte | • 0x80 - Start Time <br> • 0x00 - Stop Time |

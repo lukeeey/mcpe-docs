@@ -19,6 +19,13 @@ The site is also open source, check it out @ [Github](https://github.com/lukeeey
 ---
 
 ### Need help? Contact me!
-  
 **Twitter:** https://twitter.com/TheDiamondYT  
 **Discord:** lukeeey#2013
+
+<br>
+
+### Credit
+Most of the information on this website is found out by me, but some of it is found from other sources.
+
+* [wiki.vg](http://wiki.vg/Pocket_Minecraft_Protocol)  
+* [PocketMine-MP](https://github.com/pmmp/PocketMine-MP)

@@ -1,5 +1,5 @@
 ---
-permalink: /protocol/14/packets/login-status/
+permalink: /protocol/14/login-status/
 ---
 ## Login Status
 
@@ -11,8 +11,8 @@ permalink: /protocol/14/packets/login-status/
 
 ### Fields
 
-| Field      | Type   | Description                 |
-| ---------- | ------ | --------------------------- |
-| Status     | int    | • 0 - Success <br> • 1 - Failed Client <br> * 2 - Failed Server <br> * 3 - Player Spawn |
+| Field  | Type | Description                                                                                       |
+| ------ | ---- | ------------------------------------------------------------------------------------------------- |
+| Status | int  | • 0 - Login Success <br> • 1 - Server Outdated <br> • 2 - Client Outdated <br> • 3 - Player Spawn |
 
-
+If the login was successful, you need to send a [StartGamePacket](../start-game/).

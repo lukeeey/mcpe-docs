@@ -1,5 +1,5 @@
 ---
-permalink: /protocol/14/packets/add-mob/
+permalink: /protocol/14/add-mob/
 ---
 ## Add Mob
 

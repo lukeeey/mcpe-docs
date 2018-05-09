@@ -1,5 +1,5 @@
 ---
-permalink: /protocol/14/packets/login/
+permalink: /protocol/14/login/
 ---
 ## Login
 
@@ -11,11 +11,10 @@ permalink: /protocol/14/packets/login/
 
 ### Fields
 
-| Field      | Type   | Description                 |
-| ---------- | ------ | --------------------------- |
-| Username   | string | The username of the player  |
-| protocol1  | int    | |
-| protocol2  | int    | |
-| Client ID  | int    | The Client ID of the player |
-| Login Data | string | |
-
+| Field      | Type   | Description                        |
+| ---------- | ------ | ---------------------------------- |
+| Username   | string | The username of the player         |
+| protocol1  | int    | The protocol version of the client |
+| protocol2  | int    | ?                                  |
+| Client ID  | int    | The Client ID of the player        |
+| Login Data | string | ?                                  |

@@ -1,5 +1,5 @@
 ---
-permalink: /protocol/14/packets/ready/
+permalink: /protocol/14/ready/
 ---
 ## Ready
 
@@ -11,8 +11,6 @@ permalink: /protocol/14/packets/ready/
 
 ### Fields
 
-| Field      | Type   | Description                 |
-| ---------- | ------ | --------------------------- |
-| Status     | byte   | |
-
-
+| Field  | Type | Description |
+| ------ | ---- | ----------- |
+| Status | byte | ?           | 
