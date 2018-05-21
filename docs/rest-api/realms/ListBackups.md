@@ -12,7 +12,7 @@ This endpoint returns all the backups of the specified realm that have been made
 
 ### Constructing the request
 ```
-PUT /worlds/{id}/backups
+GET /worlds/{id}/backups
 ```
 
 **{id}** is the specific id of the realm.   
