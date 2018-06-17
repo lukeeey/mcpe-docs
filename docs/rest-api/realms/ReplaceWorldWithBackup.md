@@ -21,7 +21,7 @@ PUT /worlds/{id}/backups?backupId={backupId}
 Headers  
 * `Authorization: {token}`    - **{token}** is your xbox live token  
 * `Client-Version: {version}` - **{version}** is the version of the client
-* `User-Agent: {agent}`       - **{agent}** is one of [these](../#user-agents)
+* `User-Agent: {agent}`       - **{agent}** is one of [these](../../#user-agents)
 
 <br>
 
