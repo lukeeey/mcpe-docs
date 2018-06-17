@@ -25,7 +25,15 @@ Headers
 <br>
 
 ### Response
-Example Response
+If the realm has expired, the server will return
+```json
+{
+    "errorCode": 403,
+    "errorMsg": "No valid subscription"
+}
+```
+
+And if its not, then it will return something like
 ```json
 {
     "address": "ec2-34-245-144-180.eu-west-1.compute.amazonaws.com:27159",
@@ -34,5 +42,5 @@ Example Response
 ```
 
 The address is in the format `ip:port`. I'm not quite sure what `pendingUpdate` means.  
-  
+
 If you try to join using that address in the server list, beware the ip and port changes a lot and you can only join if you are invited to the realm.

@@ -12,9 +12,12 @@ There are various API endpoints that the client communicates with, and I will at
 * [Open Realm](realms/open-realm/)  
 * [Close Realm](realms/close-realm/)  
 * [Join Realm](realms/join-realm/)  
+* [Realm Info](realms/realm-info/)  
 * [Pending Invites Count](realms/pending-invites-count/)
 * [List Backups](realms/list-backups/)  
 * [Replace World With Backup](realms/replace-world-with-backup/)   
+* [Get Invite Link](realms/get-invite-link/)  
+* [Check Invite Link](realms/check-invite-link/)  
 
 <br>
 
