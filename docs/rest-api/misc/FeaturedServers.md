@@ -93,7 +93,7 @@ Once you have done that, you should get a response like the following example wh
 }
 ```
 
-* `productId` is the resource id of the specified featured server content. You can use this if you want to get info for the specific server by making a **GET** request to `https://xforge.xboxlive.com/v1/catalog/items/{productId}`  
+* `productId` is the resource id of the specified featured server content. You can use this if you want to get info for the specific server by making a **GET** request to *https://xforge.xboxlive.com/v1/catalog/items/{productId}*   
 * `title` is the title displayed on the server list  
 * `description` doesnt seem to do much, since the server motd is returned via normal query  
 * `thumbnailUrl` is the server icon which is displayed on the serer list  
