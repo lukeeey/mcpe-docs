@@ -9,10 +9,11 @@ There are various API endpoints that the client communicates with, and I will at
 
 #### Realms Endpoints
 * [Client Compatble](realms/client-compatible/)  
-* [Open Realm](realms/open-realm/)  
-* [Close Realm](realms/close-realm/)  
-* [Join Realm](realms/join-realm/)  
-* [Realm Info](realms/realm-info/)  
+* [Open Realm](realms/open-world/)  
+* [Close Realm](realms/close-world/)  
+* [Join Realm](realms/join-world/)  
+* [Realm Info](realms/world-info/)  
+* [List Realms](realms/list-worlds/)  
 * [Pending Invites Count](realms/pending-invites-count/)
 * [List Backups](realms/list-backups/)  
 * [Replace World With Backup](realms/replace-world-with-backup/)   
@@ -23,6 +24,7 @@ There are various API endpoints that the client communicates with, and I will at
 
 #### Miscellaneous Endpoints
 * [Get Patch Notes](misc/patch-notes/)  
+* [Get Featured Servers](misc/featured-servers/)  
 
 <br>
 

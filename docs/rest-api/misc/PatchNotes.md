@@ -6,7 +6,7 @@ This endpoint returns the patch notes for the specified client version. It requi
 
 | Host                        | Authentication |
 | --------------------------- | -------------- |
-| xforge.xboxlive.com         | No             |
+| xforge.xboxlive.com         | XBL 3.0        |
 
 There may not be patch notes available for every client version, so beware.  
 
@@ -19,6 +19,7 @@ POST /v1/catalog/items/search
 
 Headers  
 * `Content-Type: application/json`  
+* `Authorization: {xbox token}`  
 
 <br>
 
@@ -85,10 +86,11 @@ Once you have done that, you should get a response like the following example fr
 }
 ```
 
-* `productId` is the resource id of the patch notes content, you will need this, see below  
+* `productId` is the resource id of the patch notes content, **you will need this, see below**  
 * `title` is the title displayed in the patch notes screen  
 * `creatorGamertag` is the xbox live gamertag of the content author. It’s usually *DampKeyboard157*. Not quite sure who that is  
-* `offer` is the offer to be displayed in the top right corner of the patch notes screen  
+* `thumbnailUrl` is the image which is displayed on the patch notes screen  
+* `offers` is the offer to be displayed in the top right corner of the patch notes screen  
 
 <br>
 

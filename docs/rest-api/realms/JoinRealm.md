@@ -1,5 +1,5 @@
 ---
-permalink: /rest-api/realms/join-realm/
+permalink: /rest-api/realms/join-world/
 ---
 ## Join Realm
 This endpoint returns the actual address and port of the realms server. The client then connects to that address.

@@ -1,5 +1,5 @@
 ---
-permalink: /rest-api/realms/realm-info/
+permalink: /rest-api/realms/world-info/
 ---
 ## Realm Info
 This endpoint returns more detailed info about the specified realm.
@@ -15,7 +15,7 @@ This endpoint returns more detailed info about the specified realm.
 GET /worlds/{id}
 ```
 
-**{id}** is the specific id of the realm which you can get by [listing realms](../list-realms).
+**{id}** is the specific id of the realm which you can get by [listing worlds](../list-worlds/).
 
 Headers  
 * `Authorization: {token}`    - **{token}** is your xbox live token  
@@ -25,7 +25,7 @@ Headers
 <br>
 
 ### Response
-If the specified world exists, the server will return something like this
+If the specified world exists and you are the owner, the server will return something like this
 ```json
 {  
     "id": 1800696,
@@ -62,5 +62,13 @@ If the specified world exists, the server will return something like this
     ],
     "clubId": 3379870294579661,
     "member": false
+}
+```
+
+If you are *not* the owner, it will return
+```json
+{
+	"errorCode": 403,
+	"errorMsg": "Not owner"
 }
 ```

@@ -1,5 +1,5 @@
 ---
-permalink: /rest-api/realms/close-realm/
+permalink: /rest-api/realms/close-world/
 ---
 ## Close Realm
 This endpoint essentially turns off the realm so that nobody can join it.

@@ -1,5 +1,5 @@
 ---
-permalink: /rest-api/realms/open-realm/
+permalink: /rest-api/realms/open-world/
 ---
 ## Open Realm
 This endpoint turns the realm back on, allowing players to join.
