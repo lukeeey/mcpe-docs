@@ -29,17 +29,24 @@ There are various API endpoints that the client communicates with, and I will at
 <br>
 
 #### Legacy Realms Endpoints
-These endpoints are for the *old* version of pocket realms, from 0.7.4 - 0.8.1. Some of this info may be incorrect, so bear with me.  
+These endpoints are for the *old* version of pocket realms, from 0.7.4 - 0.8.1. Some of this info may be incorrect, so bare with me.  
 
+* [Create Realm](realms/legacy/create-realm/)  
+* [Recreate Realm](realms/legacy/recreate-realm/)  
 * [Join Realm](realms/legacy/join-realm/)  
+* [Open Realm](realms/legacy/open-realm/)  
+* [Close Realm](realms/legacy/close-realms/)  
+* [List Realms](realms/legacy/list-realms/)  
+* [Change Realm Name](realms/legacy/realm-name/)  
 * [Service Status](realms/legacy/status/)  
+* [Heartbeat](realms/legacy/heartbeat/)  
 
 ---
 
 #### User Agents
 Here are a list of user agents used by the client.
 
-| User Agent   | Platform   | Used for |
-| ------------ | ---------- | -------- |
-| MCPE/Android | Android    | Realms   |
-| MCPE/UWP     | Windows 10 | Realms   |
+| User Agent   | Platform   |
+| ------------ | ---------- |
+| MCPE/Android | Android    |
+| MCPE/UWP     | Windows 10 |
