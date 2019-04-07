@@ -1,6 +1,7 @@
 ---
-permalink: /protocol/14/add-mob/
+permalink: "/protocol/14/add-mob/"
 ---
+
 ## Add Mob
 
 | Client Name  | Packet ID | Sent from Client | Sent from Server |

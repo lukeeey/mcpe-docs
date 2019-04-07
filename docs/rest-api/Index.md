@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/
+permalink: "/rest-api/"
 ---
+
 ## REST Api
 There are various API endpoints that the client communicates with, and I will attempt to document them all.
 <br>

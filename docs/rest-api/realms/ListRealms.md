@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/list-worlds/
+permalink: "/rest-api/realms/list-worlds/"
 ---
+
 ## List Realms
 This endpoint returns all the realms that you are a part of.
 

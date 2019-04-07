@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/world-info/
+permalink: "/rest-api/realms/world-info/"
 ---
+
 ## Realm Info
 This endpoint returns more detailed info about the specified realm.
 

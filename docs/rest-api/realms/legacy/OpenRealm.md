@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/open-realm/
+permalink: "/rest-api/realms/legacy/open-realm/"
 ---
+
 ## Open Realm
 This endpoints makes the realm public and allows people to join.
 

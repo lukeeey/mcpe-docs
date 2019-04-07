@@ -1,18 +1,25 @@
-title: "Minecraft: Bedrock Edition Documenation"
-
-encoding: UTF-8
-
+---
+title: 'Minecraft: Bedrock Edition Documenation'
+timezone: UTC
 collections:
-    docs:
-        output: true
-        permalink: /
-    static:
-        output: false
-        permalink: /static
-
+  docs:
+    title: Docs
+    output: true
+    permalink: "/"
+  posts:
+    title: Posts
+    output: true
+  static:
+    title: Static
+    output: false
+    permalink: "/static"
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-    - scope:
-          path: ""
-          type: docs
-      values:
-          layout: page
+- scope:
+    path: ''
+    type: docs
+  values:
+    layout: page
+encoding: UTF-8

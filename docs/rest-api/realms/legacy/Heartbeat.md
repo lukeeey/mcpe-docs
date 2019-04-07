@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/heartbeat/
+permalink: "/rest-api/realms/legacy/heartbeat/"
 ---
+
 ## Heartbeat
 Not quite sure.
 

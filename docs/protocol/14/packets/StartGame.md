@@ -1,6 +1,7 @@
 ---
-permalink: /protocol/14/start-game/
+permalink: "/protocol/14/start-game/"
 ---
+
 ## Start Game
 
 | Client Name     | Packet ID | Sent from Client | Sent from Server |

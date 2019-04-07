@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/join-realm/
+permalink: "/rest-api/realms/legacy/join-realm/"
 ---
+
 ## Join Realm
 This endpoint returns the actual address and port of the realms server, as well as the encryption key. The client then connects to that address.
 

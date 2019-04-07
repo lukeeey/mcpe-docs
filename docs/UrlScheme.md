@@ -1,6 +1,7 @@
 ---
-permalink: /url-scheme/
+permalink: "/url-scheme/"
 ---
+
 ## Minecraft Url Scheme
 Minecraft: Bedrock Edition on Android and Windows 10 (not sure about other platforms) registers a custom url scheme. This means that you can launch the
 app from a web browser, but it also means you can do a few other cool things :)

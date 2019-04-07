@@ -1,6 +1,7 @@
 ---
-permalink: /protocol/14/ready/
+permalink: "/protocol/14/ready/"
 ---
+
 ## Ready
 
 | Client Name  | Packet ID | Sent from Client | Sent from Server |

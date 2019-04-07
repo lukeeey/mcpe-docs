@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/recreate-realm/
+permalink: "/rest-api/realms/legacy/recreate-realm/"
 ---
+
 ## Rereate Realm
 I think this endpoint recreates a world from an existing one? Like a fresh start.
 

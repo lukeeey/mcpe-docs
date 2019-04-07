@@ -1,6 +1,7 @@
 ---
-permalink: /protocol/
+permalink: "/protocol/"
 ---
+
 ## Protocol
 
 | Client Version | Protocol  |

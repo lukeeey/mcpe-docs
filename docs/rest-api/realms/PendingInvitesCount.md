@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/pending-invites-count/
+permalink: "/rest-api/realms/pending-invites-count/"
 ---
+
 ## Pending Invites Count
 This endpoint returns the amount of players who have been invited to your realm but have not responded to the invite.
 

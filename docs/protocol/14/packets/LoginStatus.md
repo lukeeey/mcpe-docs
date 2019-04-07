@@ -1,6 +1,7 @@
 ---
-permalink: /protocol/14/login-status/
+permalink: "/protocol/14/login-status/"
 ---
+
 ## Login Status
 
 | Client Name        | Packet ID | Sent from Client | Sent from Server |

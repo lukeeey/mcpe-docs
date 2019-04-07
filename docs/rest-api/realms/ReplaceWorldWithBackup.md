@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/replace-world-with-backup/
+permalink: "/rest-api/realms/replace-world-with-backup/"
 ---
+
 ## Replace World With Backup
 This endpoint replaces the world with the specified backup.
 

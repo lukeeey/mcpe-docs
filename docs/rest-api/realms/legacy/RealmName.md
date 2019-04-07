@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/realm-name/
+permalink: "/rest-api/realms/legacy/realm-name/"
 ---
+
 ## Realm Name
 This endpoints changes the name of the realm to the specified one. 
 

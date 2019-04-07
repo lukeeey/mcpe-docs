@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/list-backups/
+permalink: "/rest-api/realms/list-backups/"
 ---
+
 ## List Backups
 This endpoint returns all the backups of the specified realm that have been made.
 

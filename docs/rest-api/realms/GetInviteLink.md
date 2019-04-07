@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/get-invite-link/
+permalink: "/rest-api/realms/get-invite-link/"
 ---
+
 ## Get Invite Link
 This endpoint returns the invite link for a realm.
 

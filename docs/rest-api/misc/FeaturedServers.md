@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/misc/featured-servers/
+permalink: "/rest-api/misc/featured-servers/"
 ---
+
 ## Featured Servers
 This endpoint returns information about the Microsoft supported featured servers that nobody likes.
 

@@ -1,6 +1,7 @@
 ---
-permalink: /
+permalink: "/"
 ---
+
 ## Minecraft: Bedrock Edition Documentation
 Hello! Welcome to my unofficial documentation site! It is a remake of my old site, http://pe.thediamondyt.tk.
 

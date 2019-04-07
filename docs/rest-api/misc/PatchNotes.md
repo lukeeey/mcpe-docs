@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/misc/patch-notes/
+permalink: "/rest-api/misc/patch-notes/"
 ---
+
 ## Patch Notes
 This endpoint returns the patch notes for the specified client version. It requires 2 seperate requests to actually obtain the content.
 

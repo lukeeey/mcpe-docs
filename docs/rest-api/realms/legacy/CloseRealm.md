@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/close-realm/
+permalink: "/rest-api/realms/legacy/close-realm/"
 ---
+
 ## Close Realm
 This endpoints makes the realm offline so nobody can join.
 

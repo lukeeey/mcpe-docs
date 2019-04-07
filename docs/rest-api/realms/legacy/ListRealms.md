@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/list-realms/
+permalink: "/rest-api/realms/legacy/list-realms/"
 ---
+
 ## List Realms
 This endpoint lists all realms that the user owns or has been invited to.  
 

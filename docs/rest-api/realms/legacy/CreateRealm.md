@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/create-realm/
+permalink: "/rest-api/realms/legacy/create-realm/"
 ---
+
 ## Create Realm
 This endpoint creates the realm.
 

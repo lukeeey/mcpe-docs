@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/login/
+permalink: "/rest-api/realms/legacy/login/"
 ---
+
 ## Login
 This endpoint
 

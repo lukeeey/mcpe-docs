@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/check-invite-link/
+permalink: "/rest-api/realms/check-invite-link/"
 ---
+
 ## Check Invite Link
 This endpoints checks the specified invite link for existance and if so, returns the realm info associated with the link.
 

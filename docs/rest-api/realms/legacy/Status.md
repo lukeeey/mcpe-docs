@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/legacy/status/
+permalink: "/rest-api/realms/legacy/status/"
 ---
+
 ## Join Realm
 This endpoint returns whether or not server creation is allowed.
 

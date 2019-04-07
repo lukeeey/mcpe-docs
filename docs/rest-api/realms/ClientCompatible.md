@@ -1,6 +1,7 @@
 ---
-permalink: /rest-api/realms/client-compatible/
+permalink: "/rest-api/realms/client-compatible/"
 ---
+
 ## Client Compatible
 This endpoint returns whether or not the client version is compatible with realms.
 
